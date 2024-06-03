@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="prog_login.js"></script>
+    <script src="prog_login.js" defer></script>
     <title>Bcrypt</title>
 </head>
 <body>
     <h1>Login</h1>
 <div id="menu">
+    <label for="nome">Digite seu Usuário!</label><br>
+    <input type="text" id="nome" placeholder="Digite aqui!"><br><br>
     <label for="email">Digite seu Email!</label><br>
     <input type="email" id="email" placeholder="Digite aqui!"><br><br>
 
@@ -18,8 +20,9 @@
     <input type="password" id="senha" placeholder="Digite aqui!">
 
 
-    <button id="login">Logar</button>
+    <button id="log">Logar</button>
 
+    <div id="res_login"></div>
 
 
 

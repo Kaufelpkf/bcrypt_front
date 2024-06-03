@@ -22,4 +22,6 @@ cadastro.addEventListener('click',()=>{
     .then(dados => {
         res_cadastro.innerHTML = "Usuário cadastrado com sucesso!"
     })
+}).catch((err)=>{
+    console.error("erro na busca de dados",err)
 })
